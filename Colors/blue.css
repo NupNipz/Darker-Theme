@@ -1,0 +1,24 @@
+.Dark-Theme {
+    --accent-color: #bde6fb !important;
+    --background-1: #171d20 !important;
+    --background-2: #1e2529 !important;
+    --border-color: #273034 !important;
+    --background-mentioned: #bde6fb10 !important;
+    --background-mentioned-hover: #bde6fb15 !important;
+    --background-modifier-hover: #262e33 !important;
+    --background-modifier-active: #495a63 !important;
+    --text-normal: var(--accent-color) !important;
+    --text-muted: #6d8692 !important;
+    --text-link: #edf8fe !important;
+    --settings-icon-color: #8eacbc !important;
+    --tab-selected: #354249 !important;
+    --switch: #3d4c53 !important;
+    --button-background: #2a3439 !important;
+    --button-background-hover: #354249 !important;
+    --button-background-active: #4d5f68 !important;
+    --button-accent-hover: #d2f3ff !important;
+    --button-accent-active: #8dd4f8 !important;
+    --button-destructive: #fb7c7c !important;
+    --button-destructive-hover: #ff929b !important;
+    --button-destructive-active: #fa4a4a !important;
+  }
