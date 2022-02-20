@@ -1,15 +1,9 @@
 /**
  * @name GameActivityToggle
  * @author DevilBro
- * @authorId 278543574059057154
- * @version 1.0.8
+ * @version 1.0
  * @description Adds a Quick-Toggle Game Activity Button
- * @invite Jx3TjNS
- * @donate https://www.paypal.me/MircoWittrien
- * @patreon https://www.patreon.com/MircoWittrien
- * @website https://mwittrien.github.io/
- * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle/
- * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Plugins/GameActivityToggle/GameActivityToggle.plugin.js
+ * @source https://github.com/NupNipz/Darker-Theme/tree/main/GameActivity
  */
 
  module.exports = (_ => {
