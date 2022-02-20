@@ -17,10 +17,6 @@
   --settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
 }
 
-.icon-3D60ES {
-  color: #7300ff;
-}
-
 .theme-dark {
   --accent-color: #bde6fb;
   --background-1: #171d20;
