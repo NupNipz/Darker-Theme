@@ -15,10 +15,10 @@
   --HSL-server-icon-size: 50px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 15px;  /* Spacing between each server icon | DEFAULT: 10px */
   --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
-     /** Settings Modal */
-     --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
-     --settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
-     --settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
+  /** Settings Modal */
+  --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+  --settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+  --settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
 }
 
 .icon-3D60ES {
