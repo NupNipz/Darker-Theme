@@ -4,17 +4,12 @@
  * @description A smoother dark mode for discord
  * @author NupNipz#3849
  * @source https://github.com/NupNipz/Darker-Theme
- * @source https://github.com/NupNipz/GuildBar
  */
-
- @import url("https://raw.githack.com/NupNipz/GuildBar/main/dist/GuildbarTop.css");
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsIcons.css");
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsModal.css");
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Anims/AnimDiscordMain.css");
 
  :root {
-   /** Guild bar */
-  --HSL-server-icon-size: 50px;  /* Size of the server icons | DEFAULT: 40px */
-  --HSL-server-spacing: 15px;  /* Spacing between each server icon | DEFAULT: 10px */
-  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
   /** Settings Modal */
   --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
   --settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
