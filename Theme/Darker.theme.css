@@ -9,6 +9,8 @@
 
  @import url("https://raw.githack.com/NupNipz/GuildBar/main/dist/GuildbarTop.css");
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsModal.css");
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Theme/Colors/Gray.css"); 
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Theme/Colors/discord.css");
 
  :root {
    /** Guild bar */
