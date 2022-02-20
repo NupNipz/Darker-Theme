@@ -1,5 +1,5 @@
 /* Blue */
-.Dark-Theme {
+.theme-dark {
     --accent-color: #bde6fb !important;
     --background-1: #171d20 !important;
     --background-2: #1e2529 !important;
@@ -19,30 +19,6 @@
     --button-background-active: #4d5f68 !important;
     --button-accent-hover: #d2f3ff !important;
     --button-accent-active: #8dd4f8 !important;
-    --button-destructive: #fb7c7c !important;
-    --button-destructive-hover: #ff929b !important;
-    --button-destructive-active: #fa4a4a !important;
-  }
-  .theme-light {
-    --accent-color: #22c5fd !important;
-    --background-1: #ffffff !important;
-    --background-2: #f5f7fa !important;
-    --border-color: transparent !important;
-    --background-mentioned: #22c5fd10 !important;
-    --background-mentioned-hover: #22c5fd15 !important;
-    --background-modifier-hover: transparent !important;
-    --background-modifier-active: #b7c2cc !important;
-    --text-normal: #123354 !important;
-    --text-muted: #8495a7 !important;
-    --text-link: #15a6f0 !important;
-    --settings-icon-color: #566e86 !important;
-    --tab-selected: var(--background-1) !important;
-    --switch: #c8d0d9 !important;
-    --button-background: var(--background-1) !important;
-    --button-background-hover: #d3dae1 !important;
-    --button-background-active: #b1bcc8 !important;
-    --button-accent-hover: #22c5fd !important;
-    --button-accent-active: #0d87c5 !important;
     --button-destructive: #fb7c7c !important;
     --button-destructive-hover: #ff929b !important;
     --button-destructive-active: #fa4a4a !important;
