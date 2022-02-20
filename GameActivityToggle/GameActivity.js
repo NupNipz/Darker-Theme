@@ -3,7 +3,7 @@
  * @author DevilBro
  * @version 1.0
  * @description Adds a Quick-Toggle Game Activity Button
- * @source https://github.com/NupNipz/Darker-Theme/tree/main/GameActivity
+ * @source https://github.com/NupNipz/Darker-Theme/tree/main/GameActivity/
  */
 
  module.exports = (_ => {
