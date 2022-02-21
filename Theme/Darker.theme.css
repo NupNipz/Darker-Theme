@@ -8,7 +8,7 @@
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsIcons.css");
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsModal.css");
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Anims/AnimDiscordMain.css");
-
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Theme/main.css");
  :root {
   /** Settings Modal */
   --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
