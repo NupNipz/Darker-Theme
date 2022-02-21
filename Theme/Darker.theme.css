@@ -9,7 +9,7 @@
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsModal.css");
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Anims/AnimDiscordMain.css");
  @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Theme/Darker-Source.theme.css");
- @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Colors/blue.css"); 
+
  :root {
   /** Settings Modal */
   --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
@@ -18,11 +18,10 @@
 }
 
 .theme-dark {
-  --accent-color: #bde6fb;
-  --background-1: #171d20;
-  --background-2: #1e2529;
-  --background-accent: #1e2529;
-  --border-color: #273034;
+  --accent-color: #edf8fe91;
+  --background-1: #191c1f;
+  --background-2: #191c1f;
+  --background-accent: #edf8fe91;
 }
 
 .theme-dark {
@@ -34,42 +33,26 @@
   --background-tertiary: var(--background-2);
   --background-accent-gradient: var(--background-2);
   --background-floating: var(--background-1);
-  --background-mentioned: #bde6fb10;
-  --background-mentioned-hover: #bde6fb15;
+  --background-mentioned: #1e2529;
+  --background-mentioned-hover: #273034;
   /* modifiers */
-  --background-modifier-hover: #262e33;
-  --background-modifier-active: #495a63;
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
-  --text-muted: #6d8692;
-  --text-link: #edf8fe;
+  --text-muted: #edf8fe91;   
+  --text-link: #edf8fe91;    
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
-  --interactive-muted: var(--button-background-active);
   --channels-default: var(--text-muted);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
   /* more */
-  --settings-icon-color: #8eacbc;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
-  --tab-selected: #354249;
-  --switch: #3d4c53;
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
-  /* buttons */
-  --button-background: #2a3439;
-  --button-background-hover: #354249;
-  --button-background-active: #4d5f68;
-  --button-accent: var(--accent-color);
-  --button-accent-hover: #d2f3ff;
-  --button-accent-active: #8dd4f8;
-  --button-destructive: #fb7c7c;
-  --button-destructive-hover: #ff929b;
-  --button-destructive-active: #fa4a4a;
 }
