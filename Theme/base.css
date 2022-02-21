@@ -5,8 +5,6 @@
  * @author NupNipz#3849
  * @source https://github.com/NupNipz/Darker-Theme
  */
- @import "https://tiredmala.github.io/animcord/animcordmain.css";
- @import "https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css";
  
  :root{
      --dark-primary: #000000;
