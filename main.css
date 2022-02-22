@@ -25,10 +25,6 @@
    ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝      ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 themevarsp
 ***************************************************************************************/
-/*  imports */
-@import "https://tiredmala.github.io/animcord/animcordmain.css";
-@import "https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css";
-
 :root{
     --dark-primary: #000000;
     --dark-secondary: #050505;
