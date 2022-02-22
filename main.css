@@ -39,61 +39,6 @@ themevarsp
 }
 
 /****************************************************************************************
-██╗  ██╗ ██████╗ ███╗   ███╗███████╗
-██║  ██║██╔═══██╗████╗ ████║██╔════╝
-███████║██║   ██║██╔████╔██║█████╗  
-██╔══██║██║   ██║██║╚██╔╝██║██╔══╝  
-██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗
-homesp
-****************************************************************************************/
-/* home page and DMs stuff */
-
-.theme-dark .container-2cd8Mz
-{
-    border-radius: 20px;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-right: 10px;
-}
-
-/* Home colors */
-.topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover{
-    background-color:var(--brand-experiment);
-}
-
-
-:root .peopleColumn-1wMU14, .privateChannels-oVe7HL, .scroller-1JbKMe{
-    background-color: var(--dark-primary);
-}
-
-:root .searchBar-6Kv8R2 .searchBarComponent-32dTOx{
-    margin-top:5px;
-    border-radius: 25px;
-}
-
-:root .theme-dark .container-2cd8Mz, .container-1a3EgQ, .applicationStore-1pNvnv{
-    border-radius: 15px;
-    margin-right: 10px;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-
-/* friends now playing home */
-
-.wrapper-2RrXDg, .theme-dark .separator-XqIyoz, .theme-dark .inset-3sAvek{
-    background-color:var(--dark-secondary-alt);
-}
-
-.section-2gLsgF{
-    border-radius:13px;
-}
-
-.wrapper-2RrXDg:hover, .peopleListItem-u6dGxF:hover{
-        transform: scale(1.025);
-        transition: 250ms ease-in-out;
-}
-
-/****************************************************************************************
 ███████╗███████╗████████╗████████╗██╗███╗   ██╗ ██████╗ ███████╗
 ██╔════╝██╔════╝╚══██╔══╝╚══██╔══╝██║████╗  ██║██╔════╝ ██╔════╝
 ███████╗█████╗     ██║      ██║   ██║██╔██╗ ██║██║  ███╗███████╗
