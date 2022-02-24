@@ -1,5 +1,5 @@
 :root .container-1NXEtd, .sidebar-1tnWFu , .scroller-1ox3I2
 {
-    background-color: rgb(236, 0, 118);
+    background-color: var(--dark-secondary);
     border-radius: 10px;
 }
