@@ -1,0 +1,169 @@
+/**
+ * @name Darker-Theme
+ * @version 1.0
+ * @description A smoother dark mode for discord
+ * @author NupNipz#3849
+ * @source https://github.com/NupNipz/Darker-Theme
+ */
+
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsIcons.css");
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Settings/SettingsModal.css");
+ @import url("https://raw.githack.com/NupNipz/Darker-Theme/main/Anims/AnimDiscordMain.css");
+
+ :root {
+  /** Settings Modal */
+  --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+  --settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+  --settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/  
+  --background-secondary: #18191D; /* guild folder border background */
+  --background-secondary-alt: var(--background-1);; /* change it and see for yourself */
+  --background-primary: var(--background-1);; /* primary background color, full amoled black  */
+  --channeltextarea-background: #070b10; /* color of your chat bar */
+  --background-accent: var(--brand-experiment); /* discords accent color (default) */
+  --background-message-hover: transparent;
+  --background-modifier-hover: #36559138;
+  --background-modifier-active: #36559138;
+  --background-modifier-selected: #406abb38;
+  --background-floating: var(--background-1);; /* userpopout background */
+  --scrollbar-auto-thumb: var(--brand-experiment);
+  --scrollbar-auto-track: #0d0d0d;    
+  --scrollbar-thin-thumb: var(--brand-experiment);;
+  /* --scrollbar-thin-track: #1a1b20; */ /*Discord has this disabled by default */
+}
+
+.theme-dark {
+  --accent-color: #edf8fe91;
+  --background-1: #3b3b3b;
+  --background-2: #3b3b3b;
+  --background-accent: #edf8fe91;
+  --Rounded-background: #000000;
+}
+
+.theme-dark {
+  /* background */
+  --background-primary: var(--background-1);
+  --background-primary-alt: var(--background-1);
+  --background-secondary: var(--background-1);
+  --background-secondary-alt: var(--background-1);
+  --background-tertiary: var(--background-2);
+  --background-accent-gradient: var(--background-2);
+  --background-floating: var(--background-1);
+  --background-mentioned: #1e2529;
+  --background-mentioned-hover: #273034;
+  /* modifiers */
+  --background-modifier-selected: var(--accent-color);
+  --background-modifier-accent: transparent;
+  --background-message-hover: transparent;
+  /* text */
+  --text-normal: var(--accent-color);
+  --text-positive: var(--text-normal);
+  --text-muted: #edf8fe91;   
+  --text-link: #edf8fe91;    
+  --interactive-selected: var(--background-primary);
+  --interactive-active: var(--text-normal);
+  --interactive-normal: var(--text-normal);
+  --channels-default: var(--text-muted);
+  --header-primary: var(--text-normal);
+  --header-secondary: var(--text-muted);
+  /* more */
+  --control-brand-foreground: var(--accent-color);
+  --info-warning-foreground: var(--accent-color);
+  --activity-card-background: var(--background-1);
+  --brand-experiment: var(--accent-color) !important;
+}
+
+/* amoledify message search popout */
+.theme-dark .container-2McqkF{
+    border-radius:15px;
+    background-color:var(--background-1);
+    border: solid var(--popout-activeborders);
+}
+
+.searchHeader-1r_ZSh{
+    background-color: var(--background-1-alt);
+}
+
+.theme-dark .option-2KkUJO:after{
+        background: linear-gradient(90deg,rgba(21, 21, 21, 0),#000 80%);
+}
+
+.searchResultsWrap-5RVOkx{
+    border-radius:20px;
+    background-color:var(--background-1);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.channelName-3w2Y3c{
+    background:var(--background-1);
+    border-radius:7px;
+}
+
+
+/* background color*/
+:root .bg-1QIAus, .base-2jDfDU, .container-1NXEtd
+{
+    background-color: var(--Rounded-background);
+}
+
+/* guild scroller stuff */
+:root .guilds-2JjMmN
+{
+    margin-right: 10px;
+    margin-left: 7px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+}
+
+/* chat margins so they don't touch eachother*/
+:root .chat-2ZfjoI, .sidebar-1tnWFu
+{
+    margin-right: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* rounded corners in channel list and chat-member list */
+:root .sidebar-1tnWFu.hasNotice-1s68so, .platform-win .sidebar-1tnWFu.hasNotice-1s68so, .chat-2ZfjoI, .platform-win .sidebar-1tnWFu, .sidebar-1tnWFu
+{
+    border-radius: 25px;
+}
+
+/* hide role circle unless hover on role */  
+.roleCircle-1EgnFN{
+    width:0px;
+    transition: 0.2s ease;
+}
+
+.role-2TIOKu:hover > .roleCircle-1EgnFN{
+    width: 12px;
+}
+/* Better roles by Bowser65#1337*/
+
+.role-2TIOKu {
+  position: relative;
+  overflow: hidden;
+  border-radius:8px;
+  border: none;
+  padding: 5px;
+  color:#fff;
+  font-size:12.7px;
+}
+
+.roleCircle-1EgnFN::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: .38;
+    
+  pointer-events: none;
+}
+
+.footer-1fjuF6 {
+  border-top: none;
+}
