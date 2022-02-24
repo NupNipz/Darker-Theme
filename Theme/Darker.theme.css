@@ -18,7 +18,7 @@
   --background-secondary: #18191D; /* guild folder border background */
   --background-secondary-alt: var(--background-1);; /* change it and see for yourself */
   --background-primary: var(--background-1);; /* primary background color, full amoled black  */
-  --channeltextarea-background: #070b10; /* color of your chat bar */
+  --channeltextarea-background: #838383; /* color of your chat bar */
   --background-accent: var(--brand-experiment); /* discords accent color (default) */
   --background-message-hover: transparent;
   --background-modifier-hover: #36559138;
@@ -26,17 +26,17 @@
   --background-modifier-selected: #406abb38;
   --background-floating: var(--background-1);; /* userpopout background */
   --scrollbar-auto-thumb: var(--brand-experiment);
-  --scrollbar-auto-track: #0d0d0d;    
+  --scrollbar-auto-track: #838383;    
   --scrollbar-thin-thumb: var(--brand-experiment);;
   /* --scrollbar-thin-track: #1a1b20; */ /*Discord has this disabled by default */
 }
 
 .theme-dark {
-  --accent-color: #edf8fe91;
+  --accent-color: #ffffff;
   --background-1: #3b3b3b;
   --background-2: #3b3b3b;
-  --background-accent: #edf8fe91;
   --Rounded-background: #000000;
+  --brand-color: #838383;
 }
 
 .theme-dark {
@@ -51,14 +51,14 @@
   --background-mentioned: #1e2529;
   --background-mentioned-hover: #273034;
   /* modifiers */
-  --background-modifier-selected: var(--accent-color);
+  --background-modifier-selected: var(--channeltextarea-background);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
   --text-muted: #edf8fe91;   
-  --text-link: #edf8fe91;    
+  --text-link: #ffffff91;    
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
@@ -69,7 +69,7 @@
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
   --activity-card-background: var(--background-1);
-  --brand-experiment: var(--accent-color) !important;
+  --brand-experiment: var(--brand-color) !important;
 }
 
 /* amoledify message search popout */
